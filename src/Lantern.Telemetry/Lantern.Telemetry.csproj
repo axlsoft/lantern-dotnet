@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Lantern.Telemetry</RootNamespace>
+    <AssemblyName>Lantern.Telemetry</AssemblyName>
+  </PropertyGroup>
+</Project>
