@@ -53,6 +53,12 @@ public sealed class LanternWebApplicationFactory : WebApplicationFactory<Program
 {
     protected override void ConfigureWebHost(IWebHostBuilder builder)
     {
+        // WebApplicationFactory resolves content root by looking for a directory
+        // named after the assembly under the repo root. Because the project lives
+        // under test/ that path doesn't exist in CI, so we pin it to the output dir.
+        builder.UseContentRoot(
+            Path.GetDirectoryName(typeof(LanternWebApplicationFactory).Assembly.Location)!);
+
         builder.ConfigureServices(services =>
         {
             services.AddLanternTelemetry(opts =>
@@ -73,6 +79,7 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
         var app = builder.Build();
+        app.UseLanternTelemetry();
         app.MapGet("/ping", (HttpContext ctx) =>
         {
             var scope = LanternScope.Current;

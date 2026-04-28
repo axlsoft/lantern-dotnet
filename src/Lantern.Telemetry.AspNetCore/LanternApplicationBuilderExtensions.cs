@@ -18,10 +18,7 @@ public static class LanternApplicationBuilderExtensions
             .GetRequiredService<ILogger<LanternMiddleware>>();
 
         if (!opts.Enabled)
-        {
-            logger.LogInformation("Lantern telemetry is disabled (Enabled=false). Skipping middleware.");
-            return app;
-        }
+            logger.LogInformation("Lantern telemetry is disabled (Enabled=false). Scope parsing is active; coverage emission is suppressed.");
 
         if (opts.ControlPlaneEnabled &&
             Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Production")

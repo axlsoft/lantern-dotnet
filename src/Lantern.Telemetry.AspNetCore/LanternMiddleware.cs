@@ -33,12 +33,6 @@ public sealed class LanternMiddleware
 
     public async Task InvokeAsync(HttpContext context)
     {
-        if (!_options.Enabled)
-        {
-            await _next(context);
-            return;
-        }
-
         var (testId, testName) = ExtractTestContext(context.Request);
 
         if (testId is null)
