@@ -1,0 +1,16 @@
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+WORKDIR /repo
+
+COPY Directory.Build.props ./
+COPY src/ src/
+COPY samples/SampleApi/ samples/SampleApi/
+
+RUN dotnet publish samples/SampleApi/SampleApi.csproj \
+    -c Release \
+    -o /app \
+    --no-self-contained
+
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
+WORKDIR /app
+COPY --from=build /app .
+ENTRYPOINT ["dotnet", "SampleApi.dll"]
