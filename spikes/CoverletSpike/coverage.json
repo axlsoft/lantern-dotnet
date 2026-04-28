@@ -1,0 +1,371 @@
+{
+  "CoverletSpike.dll": {
+    "/Users/aleonard/axlsoft/lantern/repos/lantern-dotnet/spikes/CoverletSpike/Program.cs": {
+      "CoverletViabilitySpike": {
+        "System.Void CoverletViabilitySpike::PerTestSnapshots_Work()": {
+          "Lines": {
+            "25": 1,
+            "26": 1,
+            "30": 1,
+            "31": 1,
+            "32": 235,
+            "33": 77,
+            "34": 1,
+            "39": 1,
+            "40": 78,
+            "41": 308,
+            "42": 11737,
+            "43": 1,
+            "45": 1,
+            "46": 5,
+            "47": 1,
+            "49": 1,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "61": 1,
+            "62": 6,
+            "65": 1,
+            "66": 1,
+            "67": 1,
+            "68": 15,
+            "69": 6,
+            "72": 1,
+            "73": 3,
+            "74": 3,
+            "76": 1,
+            "77": 1,
+            "86": 1,
+            "87": 1,
+            "88": 1,
+            "91": 1,
+            "92": 1,
+            "93": 255,
+            "94": 1,
+            "97": 1,
+            "98": 1,
+            "99": 255,
+            "100": 1,
+            "102": 1,
+            "103": 1,
+            "105": 1,
+            "106": 1,
+            "107": 1,
+            "108": 1,
+            "109": 1,
+            "110": 1
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 192,
+              "EndOffset": 142,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 77
+            },
+            {
+              "Line": 32,
+              "Offset": 192,
+              "EndOffset": 194,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 46,
+              "Offset": 475,
+              "EndOffset": 408,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 46,
+              "Offset": 475,
+              "EndOffset": 477,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 49,
+              "Offset": 507,
+              "EndOffset": 512,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 581,
+              "EndOffset": 583,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 646,
+              "EndOffset": 598,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 581,
+              "EndOffset": 648,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 646,
+              "EndOffset": 648,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 507,
+              "EndOffset": 681,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 62,
+              "Offset": 806,
+              "EndOffset": 761,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 1
+            },
+            {
+              "Line": 62,
+              "Offset": 806,
+              "EndOffset": 808,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 68,
+              "Offset": 1024,
+              "EndOffset": 873,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 6
+            },
+            {
+              "Line": 69,
+              "Offset": 918,
+              "EndOffset": 920,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 2
+            },
+            {
+              "Line": 69,
+              "Offset": 918,
+              "EndOffset": 927,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 4
+            },
+            {
+              "Line": 68,
+              "Offset": 1024,
+              "EndOffset": 1029,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 18,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 18,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 31,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 44,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 57,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 57,
+              "EndOffset": 65,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 68,
+              "EndOffset": 70,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 91,
+              "EndOffset": 93,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 68,
+              "EndOffset": 116,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 91,
+              "EndOffset": 116,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void CoverletViabilitySpike::MethodA()": {
+          "Lines": {
+            "113": 1,
+            "114": 1,
+            "115": 1,
+            "116": 1
+          },
+          "Branches": []
+        },
+        "System.Void CoverletViabilitySpike::MethodB()": {
+          "Lines": {
+            "119": 1,
+            "120": 1,
+            "121": 1,
+            "122": 1
+          },
+          "Branches": []
+        },
+        "System.Int64[] CoverletViabilitySpike::<PerTestSnapshots_Work>g__Snapshot|2_4(CoverletViabilitySpike/<>c__DisplayClass2_0&)": {
+          "Lines": {
+            "80": 3,
+            "81": 3,
+            "82": 3,
+            "83": 381,
+            "84": 3
+          },
+          "Branches": [
+            {
+              "Line": 80,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 80,
+              "Offset": 40,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 80,
+              "Offset": 40,
+              "EndOffset": 49,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 80,
+              "Offset": 19,
+              "EndOffset": 93,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void CoverletViabilitySpike::.ctor(Xunit.Abstractions.ITestOutputHelper)": {
+          "Lines": {
+            "21": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/aleonard/.nuget/packages/microsoft.net.test.sdk/17.12.0/build/netcoreapp3.1/Microsoft.NET.Test.Sdk.Program.cs": {
+      "AutoGeneratedProgram": {
+        "System.Void AutoGeneratedProgram::Main(System.String[])": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package lantern.v1;
+
+import "lantern/v1/common.proto";
+
+option go_package = "github.com/axlsoft/lantern/gen/proto/lantern/v1;lanternv1";
+option csharp_namespace = "Lantern.Telemetry.Proto.V1";
+
+// Coverage represents a single coverage hit record for a contiguous line range.
+message Coverage {
+  string file_path = 1;
+  int32 line_start = 2;
+  int32 line_end = 3;
+  int32 hit_count = 4;
+  string test_id = 5;
+  AttributionMode attribution_mode = 6;
+  string worker_id = 7;
+}
+
+// CoverageBatch is the top-level envelope sent by SDKs to POST /v1/coverage.
+message CoverageBatch {
+  Resource resource = 1;
+  string batch_id = 2;
+  repeated Coverage events = 3;
+}

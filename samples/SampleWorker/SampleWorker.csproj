@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <RootNamespace>SampleWorker</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Full DI pipeline (coverage manager, event flusher, background flush service). -->
+    <!-- Workers use LanternScope.ForTest() directly; no HTTP middleware is added. -->
+    <ProjectReference Include="..\..\src\Lantern.Telemetry.AspNetCore\Lantern.Telemetry.AspNetCore.csproj" />
+  </ItemGroup>
+</Project>

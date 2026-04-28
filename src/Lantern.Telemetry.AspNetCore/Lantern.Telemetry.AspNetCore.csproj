@@ -1,8 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
     <RootNamespace>Lantern.Telemetry.AspNetCore</RootNamespace>
     <AssemblyName>Lantern.Telemetry.AspNetCore</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Lantern.Telemetry.AspNetCore</PackageId>
+    <Authors>Axlsoft, LLC</Authors>
+    <Description>Lantern functional test coverage SDK — ASP.NET Core middleware adapter.</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/axlsoft/lantern-dotnet</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
