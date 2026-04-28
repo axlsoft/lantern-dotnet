@@ -8,7 +8,7 @@ builder.Services.AddLanternTelemetry(opts =>
 {
     opts.CollectorEndpoint = builder.Configuration["Lantern:CollectorEndpoint"]
         ?? "http://localhost:8080";
-    opts.ApiKey    = builder.Configuration["Lantern:ApiKey"]    ?? "";
+    opts.ApiKey = builder.Configuration["Lantern:ApiKey"] ?? "";
     opts.ProjectId = builder.Configuration["Lantern:ProjectId"] ?? "";
 });
 
