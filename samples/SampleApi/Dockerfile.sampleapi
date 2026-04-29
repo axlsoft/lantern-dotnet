@@ -2,6 +2,7 @@ FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /repo
 
 COPY Directory.Build.props ./
+COPY proto/ proto/
 COPY src/ src/
 COPY samples/SampleApi/ samples/SampleApi/
 
